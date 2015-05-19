@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1 title of the post
+	form(method: "post")
+		div
+			h1 Create New Post
+			div 
+				label Title :
+				input(type:'text', name:'title', id:'editArticleTitle')
+			div
+				label Body : 
+				textarea(name:'body', id:'editArticleBody' ) Default text
+			div
+				input(type="submit", value="Submit")
+	p <a href="/"> Home James!</a>
