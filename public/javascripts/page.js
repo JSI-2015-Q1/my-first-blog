@@ -8,7 +8,7 @@ h1[0].textContent = "My JavaScript Blog";
 //first added article
 
 //first article variables
-var article1 = document.body.children[1];
+/*var article1 = document.body.children[1];
 var paragraphs = document.getElementsByTagName('p');
 var paragraph = paragraphs[0];
 
@@ -103,7 +103,7 @@ function pay(){
 	submit.setAttribute("onclick", "alert('Your Payment is being processed')");
 	submit.getAttribute("onclick");
 }
-pay();
+pay();*/
 
 
 
